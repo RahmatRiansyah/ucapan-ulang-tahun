@@ -19,6 +19,7 @@ body {
   position: relative;
   z-index: 1;
   animation: fadeIn 1s ease-out;
+  height: 80vh; /* Tambahkan properti ini untuk membuat elemen dapat di-scroll secara vertikal */
 }
 
 /* ... kode CSS lainnya ... */
