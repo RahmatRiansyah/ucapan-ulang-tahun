@@ -1,10 +1,3 @@
-// Tambahkan kode untuk menampilkan pesan
-function showMessage() {
-  const pesan = document.getElementById("pesan");
-  pesan.innerText = "Selamat ulang tahun!";
-}
-
-// Tambahkan kode untuk menampilkan pesan
 function tampilkanMotivasi() {
   const motivasi = [
     "Usia 21 adalah awal dari perjalanan yang lebih dewasa. Teruslah bermimpi dan berusaha!",
