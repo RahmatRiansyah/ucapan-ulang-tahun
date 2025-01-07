@@ -4,7 +4,7 @@
 
 body {
   font-family: "Quicksand", sans-serif;
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  background: linear-gradient(135deg, #333, #555);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@ body {
 }
 
 .birthday-card {
-  background-color: #fff;
+  background-color: #444;
   border-radius: 15px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   padding: 20px;
@@ -39,7 +39,7 @@ body {
 
 .cake-icon {
   font-size: 50px;
-  color: #e74c3c;
+  color: #666;
   margin-bottom: 10px;
 }
 
@@ -51,25 +51,25 @@ body {
 
 h1 {
   font-family: "Pacifico", cursive;
-  color: #e74c3c;
+  color: #666;
   font-size: 32px;
   margin: 10px 0;
 }
 
 .age {
-  color: #3498db;
+  color: #999;
   font-size: 18px;
   margin: 5px 0;
 }
 
 .message {
-  color: #2c3e50;
+  color: #ccc;
   font-size: 16px;
   margin: 15px 0;
 }
 
 button {
-  background-color: #e74c3c;
+  background-color: #666;
   color: white;
   border: none;
   padding: 12px 24px;
@@ -86,7 +86,7 @@ button {
 }
 
 button:hover {
-  background-color: #c0392b;
+  background-color: #888;
   transform: scale(1.05);
 }
 
@@ -104,4 +104,5 @@ button:hover {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #ccc;
 }
