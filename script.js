@@ -1,4 +1,3 @@
-let index = 0;
 const motivasi = [
   "Usia 21 adalah awal dari perjalanan yang lebih dewasa.",
   "Teruslah bermimpi dan berusaha!",
@@ -13,12 +12,16 @@ const motivasi = [
 ];
 
 function tampilkanMotivasi() {
+  let index = 0;
   const pesan = document.getElementById("pesan");
-  pesan.innerText = motivasi[index];
-  index++;
-  if (index >= motivasi.length) {
-    index = 0;
+  function tampilkanPesan() {
+    pesan.innerText = motivasi[index];
+    index++;
+    if (index >= motivasi.length) {
+      index = 0;
+    }
   }
+  setInterval(tampilkanPesan, 2000); // Tampilkan pesan setiap 2 detik
 }
 
-setInterval(tampilkanMotivasi, 2000); // Tampilkan pesan setiap 2 detik
+tampilkanMotivasi();
