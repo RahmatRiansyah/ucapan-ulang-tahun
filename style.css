@@ -6,7 +6,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  overflow-y: auto; /* Tambahkan properti ini untuk membuat web dapat di-scroll */
+  overflow-y: auto;
 }
 
 .birthday-card {
@@ -19,15 +19,7 @@ body {
   position: relative;
   z-index: 1;
   animation: fadeIn 1s ease-out;
-  height: 80vh; /* Tambahkan properti ini untuk membuat elemen dapat di-scroll secara vertikal */
-  margin-bottom: 20px; /* Tambahkan properti ini untuk mengatur jarak konten dari bawah */
-}
-
-#pesan {
-  color: #2c3e50;
-  font-size: 16px;
-  margin-top: 15px;
-  font-weight: bold;
+  height: 80vh;
 }
 
 @keyframes fadeIn {
@@ -81,12 +73,12 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  position: static; /* Ubah properti ini menjadi static */
-  top: 0; /* Ubah properti ini menjadi 0 */
-  left: 0; /* Ubah properti ini menjadi 0 */
-  transform: none; /* Ubah properti ini menjadi none */
-  z-index: 1; /* Tambahkan properti ini untuk mengatur z-index */
-  margin-top: 20px; /* Tambahkan properti ini untuk mengatur jarak tombol dari atas */
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  z-index: 1;
+  margin-top: 20px;
 }
 
 button:hover {
@@ -102,4 +94,11 @@ button:hover {
   height: 100%;
   pointer-events: none;
   z-index: 0;
+}
+
+#pesan {
+  color: #2c3e50;
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
 }
