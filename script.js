@@ -5,10 +5,3 @@ function showMessage() {
     Hidup adalah tentang mengambil risiko. Jangan takut untuk mencoba hal-hal baru!\n
     Ingat, setiap kegagalan adalah pelajaran berharga. Jangan pernah menyerah!\n
     Selamat datang di dunia dewasa! Jadikan setiap hari berarti.");
-}
-
-// Confetti Effect
-const canvas = document.getElementById('confetti');
-const ctx = canvas.getContext('2d');
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
