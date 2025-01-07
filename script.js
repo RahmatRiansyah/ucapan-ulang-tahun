@@ -1,5 +1,5 @@
 // Fungsi untuk menampilkan pesan spesial
-function tampilkanMotivasi() {
+function showMessage() {
   const motivasi = [
     "Usia 21 adalah awal dari perjalanan yang lebih dewasa. Teruslah bermimpi dan berusaha!",
     "Jadilah versi terbaik dari dirimu. Setiap langkah kecil membawa kita lebih dekat ke tujuan.",

@@ -20,6 +20,7 @@ body {
   z-index: 1;
   animation: fadeIn 1s ease-out;
   height: 80vh; /* Tambahkan properti ini untuk membuat elemen dapat di-scroll secara vertikal */
+  margin-bottom: 20px; /* Tambahkan properti ini untuk mengatur jarak konten dari bawah */
 }
 
 /* ... kode CSS lainnya ... */
@@ -75,11 +76,12 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  position: relative; /* Ubah properti ini menjadi relative */
+  position: static; /* Ubah properti ini menjadi static */
   top: 0; /* Ubah properti ini menjadi 0 */
   left: 0; /* Ubah properti ini menjadi 0 */
   transform: none; /* Ubah properti ini menjadi none */
   z-index: 1; /* Tambahkan properti ini untuk mengatur z-index */
+  margin-top: 20px; /* Tambahkan properti ini untuk mengatur jarak tombol dari atas */
 }
 
 button:hover {
