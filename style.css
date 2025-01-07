@@ -19,7 +19,6 @@ body {
   position: relative;
   z-index: 1;
   animation: fadeIn 1s ease-out;
-  height: 80vh;
 }
 
 @keyframes fadeIn {
@@ -97,8 +96,7 @@ button:hover {
 }
 
 #pesan {
-  color: #2c3e50;
-  font-size: 16px;
-  margin-top: 15px;
+  font-size: 24px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
