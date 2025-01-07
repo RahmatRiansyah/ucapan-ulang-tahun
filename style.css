@@ -1,12 +1,12 @@
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Quicksand", sans-serif;
   background: linear-gradient(135deg, #ff9a9e, #fad0c4);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-  overflow: hidden;
+  overflow-y: auto; /* Tambahkan properti ini untuk membuat web dapat di-scroll */
 }
 
 .birthday-card {
@@ -20,6 +20,8 @@ body {
   z-index: 1;
   animation: fadeIn 1s ease-out;
 }
+
+/* ... kode CSS lainnya ... */
 
 @keyframes fadeIn {
   from {
@@ -45,7 +47,7 @@ body {
 }
 
 h1 {
-  font-family: "Comic Sans", cursive;
+  font-family: "Pacifico", cursive;
   color: #e74c3c;
   font-size: 32px;
   margin: 10px 0;
