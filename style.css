@@ -75,6 +75,13 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  position: absolute; /* Tambahkan properti ini untuk mengatur posisi tombol */
+  top: 50%; /* Tambahkan properti ini untuk mengatur posisi tombol */
+  left: 50%; /* Tambahkan properti ini untuk mengatur posisi tombol */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Tambahkan properti ini untuk mengatur posisi tombol */
 }
 
 button:hover {
