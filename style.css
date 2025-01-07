@@ -75,13 +75,11 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  position: absolute; /* Tambahkan properti ini untuk mengatur posisi tombol */
-  top: 50%; /* Tambahkan properti ini untuk mengatur posisi tombol */
-  left: 50%; /* Tambahkan properti ini untuk mengatur posisi tombol */
-  transform: translate(
-    -50%,
-    -50%
-  ); /* Tambahkan properti ini untuk mengatur posisi tombol */
+  position: relative; /* Ubah properti ini menjadi relative */
+  top: 0; /* Ubah properti ini menjadi 0 */
+  left: 0; /* Ubah properti ini menjadi 0 */
+  transform: none; /* Ubah properti ini menjadi none */
+  z-index: 1; /* Tambahkan properti ini untuk mengatur z-index */
 }
 
 button:hover {
