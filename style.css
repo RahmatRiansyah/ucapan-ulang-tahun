@@ -23,7 +23,12 @@ body {
   margin-bottom: 20px; /* Tambahkan properti ini untuk mengatur jarak konten dari bawah */
 }
 
-/* ... kode CSS lainnya ... */
+#pesan {
+  color: #2c3e50;
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
+}
 
 @keyframes fadeIn {
   from {
